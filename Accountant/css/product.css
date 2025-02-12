@@ -1,0 +1,195 @@
+body{
+    background-color: white;
+    margin:0;
+    background-image: none;
+    height:100%; 
+    overflow-x: hidden;
+}
+* {
+    box-sizing: border-box;
+}
+
+/* Left column */
+.leftcolumn {
+    float: left;
+    width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #4C90A5;
+    padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card{
+    background-color: #130553;
+    padding: 20px;
+    margin-top: 20px;
+    color: whitesmoke;
+    border: solid rgb(0, 162, 255);
+    text-align: center;
+}
+
+.card-green{
+    background: #00b26f;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.card-yellow{
+    background: #06025194;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.card-blue {
+    background: #b055fa;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.card-red {
+    background: #e7606b;
+    border-radius: 3px;
+    text-align: center;
+}
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background-color: #102E5A;
+    margin-top: 20px;
+    color:white;
+}
+
+span {
+    color: #282828;
+}
+
+.container_table {
+    width: 1024px;
+    padding: 2em;
+}
+
+.bold-blue {
+    font-weight: bold;
+    color: #0277BD;
+}
+
+h1, h2, h4, th{
+    color: rgb(0, 162, 255);
+}
+
+td{
+    color: rgb(172, 42, 248) ;
+}
+
+.white-text{
+    color: floralwhite;
+}
+
+.pl-10{
+    padding-left: 10px;
+}
+
+.pr-10{
+    padding-right: 10px;
+}
+
+.pl-20{
+    padding-left: 20px;
+}
+
+.pt-10{
+    padding-top: 10px;
+}
+
+.pt-20{
+    padding-top: 20px;
+}
+
+.pt-50{
+    padding-top: 50px;
+}
+
+.p-20{
+    padding: 20px;
+}
+
+.modal-body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #31B0D5;
+    color: white;
+}
+
+.modal-header{
+    background: #31B0D5;
+    border-radius: 5px 5px 0px 0px ;
+}
+
+.modal-footer{
+    background: #31B0D5;
+    color: #ffce00;
+    border-radius: 0px 0px 5px 5px ;
+}
+
+.user-input {
+    position: relative;
+}
+.login-input {
+    color: black;
+    border-radius: 2px;
+    width: 150px;
+    height: 44px;
+    border: none;
+    padding: 15px 20px;
+    background-color: rgb(190, 240, 250);
+    margin-bottom: 24px;
+}
+
+.login-input:focus {
+    outline: none;
+    border-bottom: 2px solid rgb(7, 54, 82);
+}
+
+.login-input:focus:invalid {
+    border-bottom: 2px solid #ff7b00;
+}
+
+.form-input {
+    position: relative;
+}
+
+.form-input i {
+    position: absolute;
+    right: 4px;
+    top: 5px;
+    padding: 9px 8px;
+    color: #848484;
+    transition: 0.3s;
+}
+
+
