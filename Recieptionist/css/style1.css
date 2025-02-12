@@ -1,0 +1,1608 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    background-color: rgb(204, 198, 198);
+}
+
+.nav_container{
+    width: 100%;
+    height: 100px;
+    border: solid 1px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+}
+
+.logo{
+    margin-left: 60px;
+}
+
+.login{
+    height: 100px;
+    width: 200px;
+    background-color:white;
+    margin-left: 850px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -7px;
+    right: 0;
+}
+
+.login .fa-user{
+ font-size: 35px;
+ color: rgb(15, 15, 180);
+}
+
+.login_text{
+    margin-top: 55px;
+    margin-left: -35px;
+}
+
+.links_nav{
+    display: flex;
+    position: absolute;
+    right: 250px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.links_nav ul{
+    display: flex;
+    gap: 4em;
+    list-style: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: black;
+}
+
+.links_nav ul{
+    color: black;
+}
+
+.homepic_container{
+    height: 100vh;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  
+   &::before{
+    content: '';
+    background-image:   url(home_pic_img.jpg);
+    position:absolute;
+    top:0px;
+    right: 0px;
+    bottom:0px;
+    left: 0px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    opacity: 1;
+    filter: brightness(90%);
+ }
+ }
+ 
+ .welcome_text{
+   margin-bottom: 45px;
+   margin-left: 20px;
+   font-size: 40px;
+   color: rgb(15, 15, 180);
+ }
+
+ .homepic_tet{
+    height: 200px;
+    background-color: white;
+    width: 430px;
+    margin-right: 730px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+
+
+ .user_logIn{
+    background-color:transparent;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 3em;
+    margin-top: -100px;
+    position: absolute;
+  
+ }
+
+ .logIn_box{
+    width: 200px;
+    height: 100px;
+    background-color: white;
+ }
+
+ .logIn_box a{
+    text-decoration: none;
+ }
+
+ .logIn_box a:hover{
+    text-decoration:underline;
+ }
+
+ .fa-user-doctor{
+    font-size: 60px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: rgb(15, 15, 180);
+    position: absolute;
+ }
+
+ .doctor_logIn{
+    margin-top: 40px;
+    margin-left: 90px;
+    position: absolute;
+}
+
+.fa-user-nurse{
+    font-size: 60px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: rgb(15, 15, 180);
+    position: absolute;
+}
+
+.fa-user-tie{
+    font-size: 60px;
+    margin-top: 20px;
+    margin-left: 20px;
+    color: rgb(15, 15, 180);
+    position: absolute;
+}
+
+.fa-hospital{
+    font-size: 50px;
+    margin-top: 25px;
+    margin-left: 10px;
+    color: rgb(15, 15, 180);
+    position: absolute;
+}
+
+.Records{
+    width: 100%;
+    height: 300px;
+    background-color:white;
+    margin-top: 130px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+}
+
+
+.patient_ADM{
+    width: 300px;
+    height: 150px;
+    background-color:rgb(255, 255, 255, 0.5);
+    border-radius: 10px;
+    border: 2px solid  rgb(15, 15, 180);
+    display: flex;
+    justify-content:center;
+   
+}
+
+.Our_records{
+    margin-bottom: 260px;
+    position: absolute;
+    font-size: 26px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.line{
+    width: 250px;
+    height: 2px;
+    margin-top: 60px;
+    background-color: rgb(15, 15, 180);
+    border: none;
+}
+
+.number{
+    margin-right: 30px;
+    position: absolute;
+    font-size: 30px;
+    margin-top: 5px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.patient_admited{
+    margin-top: 100px;
+    position: absolute;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer{
+    width: 100%;
+    height: 400px;
+    background-color: rgb(66, 64, 64);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+.address{
+    color: white;
+}
+.Privacy{
+    color: white;
+}
+
+.privacy_text{
+    color: white;
+    margin-top: -10px;
+}
+
+.contact_info{
+    width: 300px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+    margin-top: -16px;
+   
+}
+
+.fa-phone{
+    color: white;
+    position: absolute;
+    margin-right: 110px;
+    margin-top: -120px;
+}
+
+.Phone_number{
+    color: white;
+    position: absolute;
+    margin-top: -100px;
+}
+
+.fa-whatsapp{
+    color: white;
+    position: absolute;
+    margin-right: 110px;
+    margin-top: -50px;
+}
+
+.Phone_Whatsapp{
+    color: white;
+    position: absolute;
+    margin-top: -30px;
+}
+
+.fa-envelope{
+    color: white;
+    position: absolute;
+    margin-right: 110px;
+    margin-top: 20px;
+}
+
+.Phone_email{
+    color: white;
+    position: absolute;
+    margin-top: 40px; 
+    margin-left: 100px;
+}
+
+.copyright{
+    color: white;
+    letter-spacing: 2px;
+    margin-left: 40px;
+}
+
+
+
+
+/* ADMINSTRATION DASHBORD */ /* ADMINSTRATION DASHBORD */ /* ADMINSTRATION DASHBORD */ /* ADMINSTRATION DASHBORD */
+
+
+.admin_container{
+    width: 100%;
+    height: 100vh;
+    background-color:hsl(0, 7%, 79%);
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+}
+
+.side_navbar{
+    width: 240px;
+    height: 100vh;
+    background-color: rgb(71, 71, 244);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2em;
+    overflow-y:scroll;
+    overflow-x:hidden;
+}
+
+/* SIDE NAV BAR FOR RECEPTIONIST*/
+
+#Patient_registration{
+    margin-bottom: 100px;
+    gap: 1.7em;
+}
+
+.fa-plus{
+    margin-right: 8px;
+}
+
+.fa-bed{
+    margin-right: 8px;
+}
+
+#Add_doctor{
+    width: 240px;
+    background-color:rgb(25, 24, 24,0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Patient_list{
+    width: 240px;
+    background-color:rgb(25, 24, 24,0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Patient_admited{
+    width: 240px;
+    background-color:rgb(25, 24, 24,0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#add_patient{
+    padding: 10px 20px 10px;
+    background-color: rgb(255, 255, 255, 0.6);
+    margin-bottom: 10px;
+    margin-right: 34px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    
+}
+
+#Logout{
+    width: 240px;
+    background-color:rgb(25, 24, 24,0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 300px;
+}
+
+/*END END END END */
+
+
+/* SIDE NAV BAR FOR DOCTOR*/
+
+#Patient_rgstr{
+    margin-bottom: 50px;
+    gap: 1.7em;
+}
+
+#Patient_treatment{
+    margin-top: -40px;
+    gap: 1.7em;
+}
+
+#Patient_treatment{
+    margin-bottom: 100px;
+    gap: 1.7em;
+}
+
+.fa-notes-medical{
+    margin-right: 8px;
+}
+
+.fa-bed-pulse{
+    margin-right: 8px;
+}
+
+#P_treatment{
+    width: 240px;
+    background-color:rgb(25, 24, 24,0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Outpatient{
+    width: 240px;
+    background-color:rgb(25, 24, 24,0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Inpatient{
+    width: 240px;
+    background-color:rgb(25, 24, 24,0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Treatment_txt{
+    padding: 10px 20px 10px;
+    background-color: rgb(255, 255, 255, 0.6);
+    margin-bottom: 10px;
+    margin-right: 34px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    
+}
+
+#Logout_Doc{
+    width: 240px;
+    background-color:rgb(25, 24, 24,0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+
+/*PATIENT TREATMENT BOX */
+
+.patient_treatmentBox{
+    width: 800px;
+    height: 400px;
+    position: absolute;
+    background-color: white;
+    top: -700px;
+    right: 100px;
+    border: 1px solid black;
+}
+
+.active{
+    top:0;
+}
+
+.patientTreatment_text{
+    text-align: center;
+}
+
+.patient_treatment_text{
+    width: 100%;
+    height: 40px;
+    background-color:  rgba(17, 16, 16, 0.78);
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.prescription_text{
+    color: white;
+    margin-right: 500px;
+}
+
+.text_area{
+    margin-top: 20px;
+    margin-left: 45px;
+    width: 700px;
+    height: 200px;
+}
+
+
+.Release_btn{
+    width: 200px;
+    height: 20px;
+    margin-top: 8px;
+    margin-left: 90px;
+   
+}
+
+.Release_btn input{
+   background-color: rgb(51, 51, 243);
+   width: 100px;
+   height: 40px;
+   border: none;
+   border-radius: 10px;
+   margin-bottom: 10px;
+   color: white;
+}
+
+.Admit_btn{
+    width: 200px;
+    height: 50px;
+   margin-top: -20px;
+   margin-left: 600px;
+}
+
+.Admit_btn input{
+    background-color: rgb(51, 51, 243);
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+
+
+/*END END END END */
+
+
+/*INPATIENT REGISTRATION BOX */
+.inpatientBox{
+    width: 810px;
+    height: 500px;
+    background-color: white;
+    border: solid 1px black;
+    position: absolute;
+    top: -1000px;
+    margin-left: 363px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.active{
+    top:0px;
+}
+
+#inpatient_close{
+    top: 5px;
+}
+
+.inpatient_msg{
+    width: 810px;
+    height: 40px;
+    margin-top: 0px;
+    background-color:white;
+    color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reason_forAdmission{
+    width: 810px;
+    height: 40px;
+    background-color: rgba(17, 16, 16, 0.78);
+    color: white;
+    margin-top: 30px;
+}
+
+.reason_forAdmission_msg{
+    margin-left: 20px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+#reason_description{
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 750px;
+    height: 200px;
+}
+
+.medical_history{
+    width: 810px;
+    height: 40px;
+    background-color:   rgba(17, 16, 16, 0.78);
+    color: white;
+    margin-top: 30px;
+}
+
+#MedicalHistory_description{
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 750px;
+    height: 200px;
+}
+
+#insurance-provider{
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 230px;
+    height: 26px;
+}
+
+#insurance-provider1{
+    margin-top: 20px;
+    margin-left: 44px;
+    width: 230px;
+    height: 26px;
+}
+
+.insurence_provider{
+    margin-left: 20px;
+    height: 60px;
+}
+
+#ward{
+    margin-top: 20px;
+    margin-left: 50px;
+    width: 230px;
+    height: 26px; 
+}
+
+#ward2{
+    margin-top: 20px;
+    margin-left: 25px;
+    width: 230px;
+    height: 26px; 
+}
+
+
+#ward3{
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 230px;
+    height: 26px; 
+}
+
+.insurence_provider1{
+    margin-left: 20px;
+    height: 60px;
+    margin-top: 15px;
+}
+
+.submit_box{
+    width: 810px;
+    height: 80px;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.line_submit{
+    width: 650px;
+}
+
+#submit_btnCancel{
+    width: 120px;
+    height: 40px;
+    margin-right: 300px;
+    color: white;
+    background-color: rgb(47, 47, 241);
+    border: none;
+    border-radius: 5px;
+}
+
+#submit_btnSabmit{
+    width: 120px;
+    height: 40px;
+    color: white;
+    background-color: rgb(47, 47, 241);
+    border: none;
+    border-radius: 5px;
+}
+
+
+/*END END END END */
+
+
+.side_navbar::-webkit-scrollbar{
+    background-color: rgb(47, 48, 71);
+    border-radius: 12px;
+    visibility: hidden;
+    width: 10px;
+} 
+.side_navbar:hover::-webkit-scrollbar{
+    visibility: visible;
+} 
+
+.side_navbar ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5em;
+   margin-bottom: -280px;
+}
+
+.fa-user-plus{
+    font-size: 23px;
+    color: black;
+    margin-right: 20px;
+}
+
+.fa-user-minus{
+    font-size: 23px;
+    color: black;
+    margin-right: 20px;
+}
+
+.fa-gear{
+    font-size: 23px;
+    color: white;
+    margin-right: 17px; 
+}
+
+.fa-right-from-bracket{
+    font-size: 23px;
+    color: white;
+    margin-right: 17px; 
+}
+
+.fa-minus{
+    margin-right: 12px;
+}
+
+
+
+.fa-plus{
+    color: white;
+}
+
+.side_navbar ul li{
+    color: white;
+    list-style: none;
+    padding: 12px ;
+    animation:0.8s;
+    background-color:rgb(25, 24, 24,0.4) ;
+    width: 240px;
+    text-align: center;
+}
+
+
+
+
+
+.side_navbar li a:active,
+.side_navbar ul li:hover{
+ background-color:rgb(25, 24, 24,0.4); 
+}
+
+
+
+
+ul a{
+    text-decoration: none;
+}
+
+.add_user{
+    padding: 10px 20px 10px;
+    background-color: rgb(255, 255, 255, 0.6);
+    margin-bottom: 10px;
+    margin-right: 15px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    
+}
+
+
+
+/* Top Navbar Top Navbar Top Navbar Top Navbar Top Navbar Top Navbar Top Navbar */
+
+.top_navbar{
+    width: 970px;
+    height: 80px;
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px 5px rgb(119, 115, 115);
+}
+
+.dashboad{
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+.admind{
+    margin-left: 10px;
+}
+
+.profile{
+    width: 70px;
+    height: 70px;
+    background-color: black;
+    position: absolute;
+    right: 35px;
+    margin-bottom: 30px;
+    top: 25px;
+    border-radius: 50%;
+    background-color: rgb(204, 198, 198);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-user{
+    color: white;
+    font-size: 40px;
+}
+
+.searchbar{
+    width: 260px;
+    height: 40px;
+    position: absolute;
+    top: 35px;
+    right: 400px;
+    background-color:white;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 3px rgb(204, 198, 198);
+}
+
+.fa-magnifying-glass{
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.input_search{
+    width: 200px;
+    height: 32px;
+    margin-right: 0px;
+    border: none;
+    border-radius: 15px;
+    outline: none;
+}
+
+.user_Name{
+    width: 180px;
+    height: 40px;
+    background-color: white;
+    position: absolute;
+    top: 40px;
+    right: 95px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.main_container{
+    width: 970px;
+    height: 470px;
+    background-color: white;
+    margin-left: 270px;
+    margin-top: -510px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 5px rgb(119, 115, 115);
+    overflow-y: scroll;
+    overflow-x: scroll;
+    padding-left: 14px;
+   
+}
+
+.main_container::-webkit-scrollbar{
+    background-color: rgb(202, 191, 191);
+    border-radius: 12px;
+    width: 14px;
+    visibility: hidden;
+} 
+
+.main_container:hover::-webkit-scrollbar{
+    background-color: rgb(202, 191, 191);
+    border-radius: 12px;
+    visibility: visible;
+
+} 
+
+.dashboard_patientRecord{
+    width: 100%;
+    height: 430px;
+    background-color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5px;
+    padding-right: 30px;
+}
+
+.record_line{
+    background-color: blue;
+    height: 4px;
+    width: 60px;
+    position: absolute;
+    top: 155px;
+    border-radius: 10px;
+    border: none;
+}
+
+.patientsRecords{
+    position: absolute;
+    top: 120px;
+}
+
+.patientRecords_box{
+    width: 300px;
+    height: 300px;
+    background-color: rgba(11, 11, 247, 0.4);
+    margin-left: 60px;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 15px 15px 15px rgb(185, 182, 182);
+}
+
+.patientAdmit{
+    color: black;
+    text-align: center;
+}
+
+.admited_line{
+    width: 40px;
+    height: 4px;
+    background-color: white;
+    margin-top: -17px;
+    margin-left: 110px;
+    border-radius: 10px;
+}
+
+.numberA{
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 130px;
+}
+
+
+
+
+
+
+/* TABLE TABLE USER LIST PAGE PATIENT LIST PAGE  USER LIST PAGE PATIENT LIST PAGE  USER LIST PAGE PATIENT LIST PAGE */
+
+.table_body{
+    width: 100%;
+    height: auto;
+    margin-top: 0px;
+    padding: 10px;
+}
+
+
+table, th, td{
+    padding: 20px 35px 20px;
+    width: 200px;
+    border: solid rgb(173, 168, 168) 1px;
+    border-collapse: collapse;
+    
+}
+
+
+
+
+
+
+
+.editbtn{
+    padding: 5px 15px 5px;
+    background-color: rgb(71, 71, 244);
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+    position: relative;
+    top: 15px;
+
+}
+
+
+.editbtn:hover{
+    background-color: rgb(11, 11, 214);
+}
+
+.View_bnt{
+    padding: 5px 25px 5px;
+    background-color: rgb(71, 71, 244);
+    color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-eye{
+    margin-right: 10px;
+}
+
+.View_bnt:hover{
+    background-color: rgb(11, 11, 214);
+}
+
+
+ a{
+    text-decoration: none;
+}
+
+.removedbtn{
+    padding: 5px 15px 5px;
+    background-color:rgb(202, 81, 81);
+    color: white;
+    border-radius: 10px;
+    position: relative; 
+    margin-left: 100px;
+    bottom: 4px;
+}
+
+.removedbtn:hover{
+    background-color: rgb(188, 17, 17);
+}
+
+
+
+
+.action{
+    display: flex;
+
+}
+
+
+
+
+
+
+
+
+/*CREATE USER ACCOUNT  CREATE USER ACCOUNT  CREATE USER ACCOUNT  CREATE USER ACCOUNT */
+.userCreate{
+    width: 700px;
+    height: 500px;
+    position: absolute;
+    background-color: white;
+    border: solid 1px black;
+    top: -600px;
+    right: 150px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    
+
+}
+
+
+.active{
+   top: 90px;
+}
+
+.create_text{
+    margin-left: 10px;
+}
+
+.fa-xmark{
+    top: 18px;
+    right: 25px;
+    position: absolute;
+    font-size: 25px;
+}
+
+.userInformation{
+    width: 700px;
+    height: 40px;
+    background-color: black;
+}
+
+.userInfo{
+    color: white;
+    top: 50px;
+    position: absolute;
+    left: 25px;
+    font-size: 17px;
+}
+
+.userInfor_form {
+    width: 680px;
+    height: 450px;
+    border: solid 1px black;
+    margin-left: 10px;
+    position: absolute;
+    top: 117px;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    gap: 10px;
+}
+
+.userInfor_form form{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.Birthdate{
+    width: 160px;
+}
+
+.fname_user{
+    width: 200px;
+    height: 50px;
+}
+
+.fname_userAge{
+    width: 200px;
+    height: 50px;
+    margin-right: 200px;
+}
+
+.userAcount_info{
+    width: 680px;
+    height: 300px;
+    padding-left: 15px;
+   
+}
+
+.select_user{
+    width: 160px;
+    height: 25px;
+    margin-top: 10px;
+}
+
+.userAcount_info2{
+    width: 680px;
+    height: auto;
+    padding-left: 15px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.fname_userSabmit{
+    width: 200px;
+    height: 20px;
+    margin-top: 15px;
+    margin-left: 0px;
+   
+}
+
+.fname_userSabmit input{
+   background-color: rgb(202, 194, 194);
+   width: 100px;
+   height: 40px;
+   border: none;
+   border-radius: 10px;
+   margin-bottom: 10px;
+}
+
+.fname_userCancel{
+    width: 200px;
+    height: 50px;
+   margin-top: 15px;
+   margin-left: 230px;
+}
+
+.fname_userCancel input{
+    background-color: rgb(51, 51, 243);
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+
+
+/* USER UPDATE */
+
+.userUpdate{
+    width: 700px;
+    height: 500px;
+    position: absolute;
+    background-color: white;
+    border: solid 1px black;
+    top: 80px;
+    right: 150px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    
+}
+
+.user_updateBtn{
+    width: 200px;
+    height: 50px;
+   margin-top: 15px;
+   margin-right: 330px;
+}
+
+
+.user_updateBtn input{
+    background-color: rgb(51, 51, 243);
+    width: 500px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+
+/*LOGIN PAGE LOGIN PAGE  LOGIN PAGE  LOGIN PAGE  LOGIN PAGE  LOGIN PAGE  LOGIN PAGE  LOGIN PAGE  LOGIN PAGE  LOGIN PAGE */
+
+
+.login_pic{
+    height: 100vh;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  
+   &::before{
+    content: '';
+    background-image:   url(home_pic_img.jpg);
+    position:absolute;
+    top:0px;
+    right: 0px;
+    bottom:0px;
+    left: 0px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    opacity: 1;
+    filter: brightness(60%);
+ }
+ }
+
+ .form_container{
+    width: 450px;
+    height: 550px;
+    position: absolute;
+    background-color: rgb(71, 71, 244, 0.4);
+    backdrop-filter: blur(2px);
+    border-radius: 20px;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+ }
+
+ .LogIn_text{
+    width: 420px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 10px;
+    position: absolute;
+    color: rgb(118, 243, 118);
+ }
+
+ .form_container_input{
+    width: 350px;
+    height: 500px;
+    position: absolute;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3em;
+ }
+ 
+ .form_container_input input::placeholder{
+    font-style:italic;
+    color: black;
+    
+ }
+
+
+ .name_box{
+    width: 420px;
+    height: 45px;
+    background-color: rgb(255, 255, 255, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    
+ }
+
+
+ .name_box input{
+    background-color:transparent;
+    width: 340px;
+    height: 34px;
+    border: none;
+    outline: none;
+   
+}
+
+
+
+ .name_box1{
+    width: 420px;
+    height: 45px;
+    background-color: rgb(255, 255, 255, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    
+ }
+
+
+ .name_box1 input{
+    width: 340px;
+    height: 34px;
+    border: none;
+    outline: none;
+    background-color:transparent;
+}
+
+
+.name_box2{
+    width: 420px;
+    height: 45px;
+    background-color: rgb(255, 255, 255, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    color: red;
+    font-weight: bold;
+    
+ }
+ 
+
+
+
+
+
+ .name_box .fa-user{
+    font-size: 20px;
+    right: 0;
+    color: black;
+   
+ }
+
+ .name_box1 .fa-lock{
+    font-size: 18px;
+    right: 0;
+    color: black;
+ }
+
+ 
+
+ .name_box_button{
+    width: 420px;
+    height: 45px;
+    background-color:rgb(24, 214, 24, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+ }
+
+ .button_login{
+    width: 340px;
+    height: 34px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+ }
+
+ .name_box_button .button_login{
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ .name_box_button:hover{
+    background-color: rgb(174, 224, 174);
+ }
+
+
+
+
+ /* Contact Us page Contact Us page Contact Us page Contact Us page Contact Us page Contact Us page*/
+ 
+
+
+ .ContactUspic_container{
+    height: 100vh;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  
+   &::before{
+    content: '';
+    background-image:   url(contactUs_img1.jpg);
+    position:absolute;
+    top:0px;
+    right: 0px;
+    bottom:0px;
+    left: 0px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    opacity: 1;
+    filter: brightness(90%);
+ }
+ }
+
+
+ .ContactUspic_tet{
+    height: 200px;
+    background-color:rgb(255,255,255,0.5);
+    width: 600px;
+    margin-right: 600px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .ContactUs_text{
+        margin-bottom: 45px;
+        margin-left: 20px;
+        font-size: 40px;
+        color: blue;
+
+ }
+
+ .social_media{
+    width: 600px;
+    height: 80px;
+    background-color:transparent;
+    margin-top: -25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3em;
+ }
+ .social_media,
+ .fa-phone-volume,
+ .fa-square-whatsapp,
+ .fa-x-twitter,
+ .fa-facebook,
+ .fa-square-instagram{
+    color: white;
+    font-size: 20px;
+ }
+
+
+ .contactUs_mainContiner{
+    width: 100%;
+    height: 800px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .contactUs_form{
+    width: 600px;
+    height: 600px;
+    border: solid 1px rgb(116, 112, 112);
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgb(167, 164, 164);
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+ }
+
+ .name_fist{
+    width: 600px;
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+ 
+ }
+
+ .name_fist input{
+    width: 570px;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid black;
+
+ }
+
+ .frstname{
+    margin-left: 20px;
+    position: absolute;
+ }
+
+
+ .massege{
+    width: 570px;
+    border-radius: 10px;
+    height: 40px;
+    outline: none;
+ }
+
+ .contact_submit{
+    width: 570px;
+    margin-top: 30px;
+  margin-left: 20px;
+  height: 40px;
+  border-radius: 10px;
+  border: none;
+  background-color: #6495ED;
+  animation: 0.6s;
+  font-size: 18px;
+  font-weight: bold;
+ }
+
+ .contact_submit:hover{
+    background-color: rgb(53, 53, 243);
+ }
+
+
+ .contactUs_form,
+ .fa-phone-volume,
+ .fa-square-whatsapp,
+ .fa-x-twitter,
+ .fa-facebook,
+ .fa-square-instagram
+ {
+   color: black;
+   font-size: 16px;
+ }
+
+
+
+ /* About Us About Us About Us About Us About Us About Us About Us About Us About Us About Us */
+ 
+
+ .about_mainContainer{
+    width: 100%;
+    height: 500px;
+ }
+
+
+ .AboutUs_container_container{
+    height: 100vh;
+    position: relative;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+  
+   &::before{
+    content: '';
+    background-image:   url(aboutUsPic.jpg);
+    position:absolute;
+    top:0px;
+    right: 0px;
+    bottom:0px;
+    left: 0px;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: top center;
+    opacity: 1;
+    filter: brightness(90%);
+ }
+ }
+
+
+ .AboutUsspic_tet{
+    height: 200px;
+    background-color:rgb(255,255,255,0.5);
+    width: 600px;
+    margin-right: 600px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
